@@ -1,0 +1,17 @@
+fullname=input("Enter the name:")
+email=input("Enter the Email ID:")
+num=input("Enter the mobile number:")
+age=int(input("Enter the age:"))
+a=len(fullname)
+b=len(email)
+c=len(num)
+d=email.count("@")
+e=email.count(".")
+print(a,b,c)
+if a<2 or fullname[0]==" " or fullname[a-1]==" " :
+    if d==0 or e==0 or email[0]=="@":
+        if c!=10 or num[0]=="0" or num.isdigit():
+            if 18<=age<=60:
+              print("User Profile is Invalid")
+else :
+    print("User Profile is Valid")
